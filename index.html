@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<head>
+    <title>FutureBook</title>
+    
+    <style>
+        body{
+            background-color: rgb(24, 25, 26);
+            padding: 0;
+            margin: 0;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+        }
+        .navigation {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(36, 37, 38);
+            border-bottom: 1px solid rgb(84, 79, 79);
+        }
+        .logo {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            color: blue;
+            align-items: center;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo img{
+            height: 100%;
+            font-weight: 100%;
+            padding-top: 50px;
+        }
+        .frame {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .fyp {
+
+    
+            display: flex;
+            flex-direction: column;
+        }
+        .post1 {
+            width: 800px;
+            height: 90px;
+            background-color: rgb(36, 37, 38);
+
+            border-radius: 20px;
+            display: flex;
+        }
+        .pfp{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 10px;
+            margin-left: 30px;
+            border: 1px solid black;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .text{
+            background-color: rgb(61, 61, 61);
+            border-radius: 25px;
+            margin-left: 10px;
+            margin-top: 20px;
+            width: 500px;
+            height: 50px;
+            align-items: center;
+            justify-content: left;
+            display: flex;
+        }
+        .text p {
+            margin-left: 10px;
+            font-size: 30px;
+            color: rgb(135, 136, 137);
+        }
+        .button1{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button1 img{
+            padding-left: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        .main {
+            margin-top: 20px;
+            width: 800px;
+            height: 75px;
+            background-color: rgb(36, 37, 38);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border: none;
+            display: flex;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+        }
+        .name {
+
+            margin-left: 10px;
+            margin-top: 5px;
+            height: 40px;
+            width: 250px;
+            align-items: center;
+            justify-content: left;
+            display: flex;
+        }
+        .name p{
+            color: white;
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+        }
+        .date {
+            height: 25px;
+            display: flex;
+            margin-left: 10px;
+            justify-content: left;
+            align-items: center;
+            
+        }
+        .date p {
+            color: rgb(160, 160, 160);
+        }
+        
+        .content {
+            background-color: rgb(36, 37, 38);
+            margin-top: 0px;
+            display: flex;
+            width: 800px;
+            height: 500px;
+            overflow: hidden;
+        }
+        .caption{
+            display: flex;
+            padding-top: 5px;
+            
+            width: 800px;
+            height: 75px;
+            background-color: rgb(36, 37, 38);
+            align-items: center;
+        }
+        .caption p{
+            padding-left: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: 10px;
+        }
+        .reaction{
+            display: flex;
+            background-color: rgb(36, 37, 38);
+            height: 50px;
+            color: rgb(156, 156, 156);
+            align-items: center;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .like {
+            flex: 1;
+            justify-content: center;
+            display: flex;
+        }
+        .comment {
+            flex: 1;
+            justify-content: center;
+            display: flex;
+        }
+        .share {
+            flex: 1;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class = "navigation">
+        <div class = "logo">
+            <img src="/pictures/Logo.png" alt="">
+        </div>
+    </div>
+
+    <div class = "frame">
+        <div class ="fyp">
+
+            <div class = "post1">
+                <div class ="pfp">
+                <img src="/pictures/pfp.jpg" alt="img here">
+                </div>
+                <div class ="text">
+                    <p>Whats on your mind, pogi?</p>
+                </div>
+                <div class = "button1">
+                    <img src="/pictures/camera.png" alt="" class = "camera">
+                    <img src="/pictures/image.png" class="image">
+                    <img src="/pictures/emoji.png" alt="" class="emoji">
+                </div>
+            </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>October 28, 2025</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Me and Jhanray Teehee #FreshmanSaCollege</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/WIN_20250909_12_00_53_Pro (2).jpg" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>March 23, 2026</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>2nd year! Tama paba tong ginagawa ko sa buhay?</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year1.jpg" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>November 28, 2027</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>3rd Year College!!! ayos panaman (ata) </p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year 2.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>December 1, 2027</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Never mind, Yoko na magaral huhu #stressed</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year 4.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>jp
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>January 17, 2028</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Na hospital dahil sa stress HAHAHHA</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year 4.1.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>march 28, 2028</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Oras na para manakawan ako ng gobyerno! #graduate</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year 5.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>October 28, 2029</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>May J*b nako!!! say hi sa boss ko</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year6.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>July 28, 2030</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Rewarding myself!</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year7.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>March 1, 2031</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Stress sa work, hirap sa pinas</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year8.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>April 3, 2031</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Bulok man sa Pinas, atleast maangas ung beach!</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year9.png" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+                
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>October 29, 2036</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>New Country, New Life! Bye Philippines!</p>
+                        </div>
+
+                <div class = "content">
+                            <img src="/pictures/year10.jpg" alt="">sadsa
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/samuel.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Samuel Ilagan</p>
+                        </div>
+                        <div class="date">
+                            <p>Just Now.</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Nawawalang Gordon College Student!!</p>
+                        </div>
+
+                <div class = "content" style="display: flex; background-color: gray ; justify-content: center;">
+                            <img src="/pictures/jhanray.jpg" alt="" >
+                        </div>
+                </div>
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+                <div class = "post2">
+                    <div class="main">
+                        <div class = "pfp">
+                        <img src="/pictures/pfp.jpg" alt="">
+                        </div>
+                        <div class = "header">
+                            <div class="name">
+                            <p>Emil Verde Perez</p>
+                        </div>
+                        <div class="date">
+                            <p>October 28, 2026</p>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="caption">
+                            <p>Visit my Website! -><a href="/itc/emil.html" style="font-style: none;" target="_blank"><p>Click ME!</p></a></p>
+                            
+                        </div>
+
+                    
+                <div class="reaction">
+                    <div class = "like">
+                        <p>Like</p>
+                    </div>
+                    <div class = "comment">
+                        <p>Comment</p>
+                    </div>
+                    <div class = "share">
+                        <p>Share</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
